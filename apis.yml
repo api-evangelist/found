@@ -1,8 +1,26 @@
 aid: found
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/found.png
 name: Found
-description: 'Found is a company surfaced as a portfolio company of founders-fund, gv, ivp, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Found is a financial technology platform that combines free business
+  banking, automated bookkeeping, tax tracking, and invoicing for self-employed people,
+  freelancers, and small business owners. Banking services are provided through Lead
+  Bank (Member FDIC), with FDIC insurance up to $250,000. Found consolidates a business
+  checking account, a Mastercard business debit card, automatic expense categorization,
+  real-time tax estimates, unlimited contractor payments, and an AI-powered bookkeeping
+  assistant into a single mobile and web app. Paid Found Plus and Found Pro tiers add
+  higher APY, cash back, and advanced tax and reporting features. Found is backed by
+  Founders Fund, GV, IVP, and Lightspeed Venture Partners.'
 url: https://raw.githubusercontent.com/api-evangelist/found/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Banking
+- Bookkeeping
+- Tax
+- Invoicing
+- Self-Employed
+- Small Business
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,4 +51,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://joinfound.com
+  url: https://found.com
+- type: Pricing
+  url: https://found.com/pricing
+- type: Support
+  url: https://found.com/help-center
+- type: Blog
+  url: https://found.com/resources
+- type: TermsOfService
+  url: https://found.com/legal/tos-lead
+- type: PrivacyPolicy
+  url: https://found.com/legal/privacy
+- type: SignUp
+  url: https://my.found.com/register
+- type: Login
+  url: https://my.found.com/login
+- type: Compliance
+  url: https://found.com/security
+- type: Conformance
+  url: conformance/found-conformance.yml
+- type: DomainSecurity
+  url: security/found-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

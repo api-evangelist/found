@@ -1,0 +1,15 @@
+generated: '2026-07-19'
+method: searched
+source: https://found.com/security
+standards:
+- id: soc2
+  conforms: true
+  evidence: 'Found security page states its Information Security Program follows the
+    SOC 2 Framework criteria and is assessed annually by a third party.'
+- id: pci-dss
+  conforms: true
+  evidence: 'Found security page states all of its payment partners are PCI-DSS certified
+    to safeguard payment information.'
+- id: encryption-at-rest
+  conforms: true
+  evidence: 'AES-256 encryption at rest for databases and backups (found.com/security).'
